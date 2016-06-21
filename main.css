@@ -1,0 +1,55 @@
+.accordianbox {
+  border: solid red 1px;
+  height: 440px;
+  width: 400px;
+  margin-left: 400px;
+  margin-top: 20px; }
+
+/*------------------------------*/
+.paragraph {
+  background: pink;
+  width: 400px;
+  margin: 0px;
+  font-size: 15px; }
+
+.closed {
+  max-height: 0px;
+  overflow: hidden; }
+
+.sectionOnebox {
+  /*	border: solid orange 1px;*/
+  width: 400px; }
+
+.sectionTwobox {
+  width: 400px; }
+
+.sectionThreebox {
+  width: 400px; }
+
+/*-----------------------*/
+.title1 {
+  /*	border: solid black 1px;*/
+  background: #00C6D6;
+  height: 50px;
+  width: 400px;
+  margin: 0px;
+  font-size: 25px;
+  /*	padding-left: 20px;*/ }
+
+.title2 {
+  /*	border: solid black 1px;*/
+  background: #00C6D6;
+  height: 50px;
+  width: 400px;
+  margin: 0px;
+  font-size: 25px;
+  /*	padding-left: 20px;*/ }
+
+.title3 {
+  /*	border: solid black 1px;*/
+  background: #00C6D6;
+  height: 50px;
+  width: 400px;
+  margin: 0px;
+  font-size: 25px;
+  /*	padding-left: 20px;*/ }

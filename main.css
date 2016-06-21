@@ -6,16 +6,34 @@
   margin-top: 20px; }
 
 /*------------------------------*/
-.paragraph {
+.paragraph1 {
   background: pink;
   width: 400px;
   margin: 0px;
-  font-size: 15px; }
-
-.closed {
+  font-size: 15px;
   max-height: 0px;
   overflow: hidden; }
 
+.paragraph2 {
+  background: pink;
+  width: 400px;
+  margin: 0px;
+  font-size: 15px;
+  max-height: 0px;
+  overflow: hidden; }
+
+.paragraph3 {
+  background: pink;
+  width: 400px;
+  margin: 0px;
+  font-size: 15px;
+  max-height: 0px;
+  overflow: hidden; }
+
+/*.closed {
+	max-height: 0px;
+	overflow: hidden;
+}*/
 .sectionOnebox {
   /*	border: solid orange 1px;*/
   width: 400px; }

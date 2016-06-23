@@ -1,35 +1,47 @@
 .accordianbox {
-  border: solid red 1px;
+  border: solid #00C6D6 1px;
   height: 440px;
   width: 400px;
   margin-left: 400px;
   margin-top: 20px; }
 
 /*------------------------------*/
-.paragraph1 {
-  background: pink;
-  width: 400px;
-  margin: 0px;
-  font-size: 15px;
+.paragraph {
   max-height: 0px;
+  /*	height: 200px;*/
+  background: darkgrey;
   overflow: hidden; }
 
-.paragraph2 {
-  background: pink;
+.invisible {
+  background: lightgrey;
   width: 400px;
   margin: 0px;
   font-size: 15px;
-  max-height: 0px;
-  overflow: hidden; }
+  max-height: 300px;
+  overflow: hidden;
+  transition-duration: 2s;
+  transition-timing-function: ease;
+  /*	transition-property: all;*/ }
+
+/*.paragraph2 {
+	background: pink;
+	width: 400px;
+	margin: 0px;
+	font-size: 15px;
+	max-height: 0px;
+	overflow: hidden;
+
+}
 
 .paragraph3 {
-  background: pink;
-  width: 400px;
-  margin: 0px;
-  font-size: 15px;
-  max-height: 0px;
-  overflow: hidden; }
+	background: pink;
+	width: 400px;
+	margin: 0px;
+	font-size: 15px;
+	max-height: 0px;
+	overflow: hidden;
 
+}*/
 /*.closed {
 	max-height: 0px;
 	overflow: hidden;
@@ -45,25 +57,7 @@
   width: 400px; }
 
 /*-----------------------*/
-.title1 {
-  /*	border: solid black 1px;*/
-  background: #00C6D6;
-  height: 50px;
-  width: 400px;
-  margin: 0px;
-  font-size: 25px;
-  /*	padding-left: 20px;*/ }
-
-.title2 {
-  /*	border: solid black 1px;*/
-  background: #00C6D6;
-  height: 50px;
-  width: 400px;
-  margin: 0px;
-  font-size: 25px;
-  /*	padding-left: 20px;*/ }
-
-.title3 {
+.title {
   /*	border: solid black 1px;*/
   background: #00C6D6;
   height: 50px;

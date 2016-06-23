@@ -1,15 +1,23 @@
 
-// var opensection1 = function(){
-// $(".closed").click(function(){
-// 	$(this).toggleClass("closed")})
+// var opensection = function(event) {
+// 	// console.log("called opensection");
+// var target = event.target;
+// var paragraph = $(target).siblings("p");
+// // console.log(paragraph);
+// paragraph.toggleClass("invisible");
+
 // };
 
-// $(".closed").click(function(){
-// 	$(this).toggleClass("closed")});
+// $(".title").on("click", opensection);
 
-var opensection1 = function(event) {
+var opensection = function(event) {
+	// console.log("called opensection");
 var target = event.target;
-return removeClass(even.target)
+var paragraph = $(target).siblings("p");
+// console.log(paragraph);
+paragraph.toggleClass("invisible");
+
 };
 
-$(".paragraph1").on("click", opensection1);
+$(".title").on("click", opensection);
+

@@ -1,11 +1,11 @@
-/*.accordianbox {
+.accordianbox {
 	border: solid #00C6D6 1px;
 	height: 440px;
 	width: 400px;
 	margin-left: 400px;
 	margin-top: 20px;
 
-}*/
+}
 
 /*------------------------------*/
 .paragraph {
@@ -17,7 +17,7 @@
 
 
 .sectionbox {
-    background-color: #eee;
+    background-color: #00C6D6;
     color: #444;
     cursor: pointer;
     padding: 18px;
@@ -28,7 +28,8 @@
     transition: 0.4s;
 
 }
-.sectionbox.active, .sectionbox:hover {
+.sectionbox.active, 
+.sectionbox:hover {
     background-color: #ddd;
 }
 
